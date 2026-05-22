@@ -1,0 +1,10 @@
+﻿version: 1
+name: legal-mcp
+description: 'Comprehensive legal toolkit for AI agents — patent research, court records, contract generation and analysis'
+runtime: python
+entry: server.py
+startCommand:
+  type: stdio
+  command: python3
+  args:
+    - server.py
